@@ -70,6 +70,8 @@ class _MapsDemoState extends State<MapsDemo> {
   @override
   void initState() {
     super.initState();
+
+    MapboxMap.useHybridComposition = true;
   }
 
   /// Determine the android version of the phone and turn off HybridComposition

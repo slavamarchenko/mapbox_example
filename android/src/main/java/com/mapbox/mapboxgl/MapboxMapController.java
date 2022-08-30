@@ -1342,7 +1342,7 @@ final class MapboxMapController
     }
     stopListeningForLocationUpdates();
 
-    mapView.onDestroy();
+    // mapView.onDestroy();
     mapView = null;
   }
 
